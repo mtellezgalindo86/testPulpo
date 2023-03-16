@@ -11,7 +11,7 @@
 <p>
   Este proyecto utiliza el framework Nest.js para crear una API que provee información sobre ayuda humanitaria. La API se conecta con la API de IATI y recupera información sobre ayuda humanitaria para un país y un rango de años especificados.
 
-La información se obtiene mediante una solicitud GET al endpoint /aid/:countryCode/:years. Donde countryCode es el código ISO de dos letras del país que se desea consultar y years es un rango de años separado por un guión. Por ejemplo, /aid/US/2016-2020 devolverá información sobre la ayuda humanitaria que recibió Estados Unidos desde el año 2016 hasta el año 2020.
+La información se obtiene mediante una solicitud GET al endpoint /aid/:countryCode/:years. Donde countryCode es el código ISO de dos letras del país que se desea consultar y years es un rango de años separado por un guión.
 
 La información se devuelve en formato JSON con la siguiente estructura:
 </p>
