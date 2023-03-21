@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import {ADIModule} from './adi.module';
+import { ADIModule } from './adi.module';
 
 @Module({
   imports: [ADIModule],
